@@ -1,0 +1,29 @@
+.home-header {
+    background: #fff;
+    border-bottom: 1px solid #E0E0E0;
+    box-shadow: 0 5px 10px #E8E8E8;
+    z-index: 1;
+}
+
+.home-main {
+    height: 90vh;
+    padding: 3vh 3vw 3vh 3vw;
+    background: #F8F8F8;
+    .home-input {
+        width: 20vw;
+    }
+    .demo-table-expand {
+        font-size: 0;
+        label {
+          width: 90px;
+          color: #99a9bf;
+        }
+        .el-form-item {
+          margin-right: 0;
+          margin-bottom: 0;
+          width: 50%;
+        }
+      }
+}
+
+
